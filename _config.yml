@@ -1,4 +1,4 @@
-# baseurl: http://aviatour.github.io/
+baseurl: http://aviatour.github.io/
 permalink: pretty
 markdown: rdiscount
 prose:
