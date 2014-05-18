@@ -44,3 +44,22 @@ prose:
           element: "text"
           label: "Постоянная ссылка"
           value: ""
+    _posts/news:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "news"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Заголовок"
+          value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Постоянная ссылка"
+          value: ""

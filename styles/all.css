@@ -23,7 +23,7 @@ body{font-family:Georgia,"Times New Roman",Times,serif}
 #slider{height:300px}
 .slider-container{position:relative;margin-bottom:40px;}
 .slider-container img{width:auto;max-width:100%}
-.slider-container .slide-button{margin:0;padding:0;width:100px;height:100px;cursor:pointer;display:inline-block;}
+.slider-container .slide-button{margin:0;padding:0;float:left;width:100px;height:100px;cursor:pointer;display:inline-block;}
 .slider-container .slide-button img{width:100px;height:100px;opacity:.6;}
 .slider-container .slide-button img:hover{opacity:1}
 .slider-container .slider-button{position:absolute;top:150px;color:#000;z-index:10;font-size:2em;line-height:40px;text-align:center;text-decoration:none;background-color:rgba(255,255,255,0.5);}

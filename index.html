@@ -9,15 +9,19 @@ layout: index
 
   <div class="slider-container grid_9">
       <div id="slider">
-        <img src="images/tours/greece.jpeg"/>
-        <img src="images/tours/thai.jpg"/>
-        <img src="images/tours/india.jpg"/>
-        <img src="images/tours/greece.jpeg"/>
-        <img src="images/tours/thai.jpg"/>
-        <img src="images/tours/india.jpg"/>
-        <img src="images/tours/greece.jpeg"/>
+        {% for item in site.categories.news limit:7 %}
+          <a href='{{site.baseurl}}{{item.url}}' alt="{{item.title}}" title="{{item.title}}">
+            <img src="{{site.baseurl}}{{item.image}}" alt="{{item.title}}" title="{{item.title}}"/>
+          </a>
+        {% endfor %}
       </div>
-      
-      <div class="slide-button" data-value="0"><img src="images/tours/greece.jpeg"/></div><div class="slide-button" data-value="1"><img src="images/tours/thai.jpg"/></div><div class="slide-button" data-value="2"><img src="images/tours/india.jpg"/></div><div class="slide-button" data-value="3"><img src="images/tours/greece.jpeg"/></div><div class="slide-button" data-value="4"><img src="images/tours/thai.jpg"/></div><div class="slide-button" data-value="5"><img src="images/tours/india.jpg"/></div><div class="slide-button" data-value="6"><img src="images/tours/greece.jpeg"/></div>
+
+      <div class='slide-buttons'>
+        {% for item in site.categories.news limit:7 %}
+          <div class="slide-button" data-value="{{forloop.index0}}">
+            <img src="{{site.baseurl}}{{item.image}}" alt="{{item.title}}" title="{{item.title}}"/>
+          </div>
+        {% endfor %}
+      </div>
   </div>
 </div>
