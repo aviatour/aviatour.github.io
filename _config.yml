@@ -17,6 +17,7 @@ prose:
   relativeLinks: 'http://aviatour.github.io/links.jsonp'
   media: 'media'
   ignore:
+    - .gitignore
     - index.html
     - _config.yml
     - /_layouts
