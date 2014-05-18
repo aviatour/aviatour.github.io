@@ -13,6 +13,7 @@ stylus:
   path: ./styles
 
 prose:
+  rooturl: '_posts'
   siteurl: 'http://aviatour.github.io/'
   relativeLinks: 'http://aviatour.github.io/links.jsonp'
   media: 'media'
@@ -27,3 +28,19 @@ prose:
     - /images
     - /scripts
     - /styles
+  metadata:
+    _posts/static:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "default"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Заголовок"
+          value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Постоянная ссылка"
+          value: ""
