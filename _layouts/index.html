@@ -13,11 +13,18 @@
 
   <div class="container_12">
     {% include side-menu.html %}
-    <div class="content grid_9">
-      {{ content }}
-    </div>
+    {{ content }}
+    <!-- {% include globe.html %} -->
+  </div>
+
+  <div class="container_12">
+    {% include credit-cards.html %}
+    {% include partners.html %}
   </div>
 
   {% include footer.html %}
+
+  <script>require("app")</script>
+
   </body>
 </html>
