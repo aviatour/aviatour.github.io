@@ -16,3 +16,13 @@ prose:
   siteurl: 'http://aviatour.github.io/'
   relativeLinks: 'http://aviatour.github.io/links.jsonp'
   media: 'media'
+  ignore:
+    - index.html
+    - _config.yml
+    - /_layouts
+    - /_includes
+    - /_plugins
+    - /_site
+    - /images
+    - /scripts
+    - /styles
