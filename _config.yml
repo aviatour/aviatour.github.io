@@ -13,7 +13,6 @@ stylus:
   path: ./styles
 
 prose:
-  rooturl: './'
   siteurl: 'http://aviatour.github.io/'
   relativeLinks: 'http://aviatour.github.io/links.jsonp'
   media: 'media'
