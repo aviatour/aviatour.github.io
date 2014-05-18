@@ -33,7 +33,7 @@ prose:
       - name: "layout"
         field:
           element: "hidden"
-          value: "default"
+          value: "page"
       - name: "title"
         field:
           element: "text"
@@ -44,11 +44,12 @@ prose:
           element: "text"
           label: "Постоянная ссылка"
           value: ""
+
     _posts/news:
       - name: "layout"
         field:
           element: "hidden"
-          value: "default"
+          value: "news"
       - name: "category"
         field:
           element: "hidden"
@@ -58,6 +59,11 @@ prose:
           element: "text"
           label: "Заголовок"
           value: ""
+      - name: "image"
+        field:
+          element: "text"
+          label: "Изображение"
+          value: "http://placehold.it/700x300"
       - name: "permalink"
         field:
           element: "text"
