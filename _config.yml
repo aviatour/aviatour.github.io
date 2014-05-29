@@ -8,10 +8,6 @@ url: http://aviatour.github.io/
 markdown: rdiscount
 permalink: pretty
 
-stylus:
-  compress: true
-  path: ./styles
-
 prose:
   rooturl: '_posts'
   siteurl: 'http://aviatour.github.io/'
@@ -64,6 +60,66 @@ prose:
           element: "text"
           label: "Изображение"
           value: "http://placehold.it/700x300"
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Постоянная ссылка"
+          value: ""
+
+    _posts/blog:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Заголовок"
+          value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Постоянная ссылка"
+          value: ""
+
+    _posts/fairs:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "fairs"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Заголовок"
+          value: ""
+      - name: "permalink"
+        field:
+          element: "text"
+          label: "Постоянная ссылка"
+          value: ""
+
+    _posts/weddings:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "page"
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "weddings"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Заголовок"
+          value: ""
       - name: "permalink"
         field:
           element: "text"

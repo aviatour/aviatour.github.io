@@ -1,7 +1,7 @@
 ---
 title: Оплата по картам
 layout: page
-permalink: cards/
+permalink: credit-cards/
 ---
 
 {% include credit-cards.html %}
