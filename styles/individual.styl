@@ -1,6 +1,10 @@
 body
   font-family Georgia, "Times New Roman", Times, serif
 
+  // h1, h2, h3, h4, h5, h6
+  //   font-weight 800
+  //   font-family 'Open Sans', sans-serif
+
 .header
   height 220px
   margin-bottom 20px
@@ -87,8 +91,17 @@ body
         &:hover
           color #FD8736
 
-.content
-  font-size 1.4em
+.content-wrapper
+    font-family 'Open Sans', sans-serif
+    .title
+      h1
+        font-size 32px
+        font-weight 800
+  .content
+    font-size 18px
+    line-height 24px
+    ul
+      font-weight 200
 
 #slider
   height 300px
@@ -183,7 +196,9 @@ body
     list-style none
     text-align center
     li
-      display inline
+      display inline-block
+      padding 10px 10px
+      line-height 60px
 
 .partners
   margin-bottom 40px
