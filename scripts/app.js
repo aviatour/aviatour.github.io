@@ -116,16 +116,28 @@ $('.slide-button').on('click', function(e) {
   return $(e.currentTarget).addClass('active');
 });
 
+var map = L.mapbox.map('map', 'examples.map-i86nkdio').setView([40, 10], 4);
+var featureLayer = L.mapbox.featureLayer().addTo(map);
+
+featureLayer.on('layeradd', function(e) {
+  var marker = e.layer,
+      feature = marker.feature;
+
+  marker.setIcon(L.icon(feature.properties.icon));
+});
+featureLayer.loadURL('/data/countries.geojson');
+
+
 Erdapfel = require('erdapfel');
 
-window.globe = globe = new Erdapfel('map', {
-  width: 700,
-  height: 700,
-  radius: 200,
-  noZoom: true,
-  cameraPositionZ: 500,
-  texture: 'images/NE.jpg'
-});
+// window.globe = globe = new Erdapfel('map', {
+//   width: 700,
+//   height: 700,
+//   radius: 200,
+//   noZoom: true,
+//   cameraPositionZ: 500,
+//   texture: 'images/NE.jpg'
+// });
 
 $.getJSON('data/countries.geojson', function(data) {
   var element, feature, lat, lng, _i, _len, _ref, _ref1, _results;

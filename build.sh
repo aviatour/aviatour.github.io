@@ -1,3 +1,3 @@
 #!/bin/bash
 
-stylus -w styles/app.styl  
+stylus -u nib -w styles/app.styl 
