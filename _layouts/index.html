@@ -27,7 +27,10 @@
 
   {% include footer.html %}
 
-  <script>require("app")</script>
+  <!-- <script>require("app")</script> -->
+
+  <script src="{{ "/scripts/slider.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/scripts/map.js" | prepend: site.baseurl }}"></script>
 
   </body>
 </html>
