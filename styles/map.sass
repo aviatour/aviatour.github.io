@@ -1,0 +1,40 @@
+---
+---
+
+#map-container
+  position: relative
+
+  #map
+    width: 700px
+    height: 500px
+
+    .dot
+      border-radius: 50%
+
+  #info-wrapper
+    overflow: hidden
+    position: absolute
+    width: 260px
+    top: 10px
+    right: 10px
+    background: #fff
+    border-radius: 2px
+    max-height: 500px - 10px * 2
+    font-family: 'Open Sans', sans-serif
+
+  .info
+    .item
+      display: block
+      color: #3887BE
+      padding: 10px
+      border-bottom: 1px solid #eee
+      text-decoration: none
+
+      small
+        color: #888
+
+      &:hover, &.active
+        background: #f8f8f8
+        
+      &:last-child
+        border-bottom: none
