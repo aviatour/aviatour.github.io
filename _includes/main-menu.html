@@ -1,5 +1,8 @@
 <div class="main-menu grid_12">
   <ul>
+    {% if page.url != '/' %}
+      <li><a href='{{site.baseurl}}/'>На главную</a></li>
+    {% endif %}
     <li class='{% if page.url == "/about/" %}active{% endif %}'><a href='{{site.baseurl}}/about'>О нас</a></li>
     <li class='{% if page.url == "/contacts/" %}active{% endif %}'><a href='{{site.baseurl}}/contacts'>Контактная информация</a></li>
   </ul>
