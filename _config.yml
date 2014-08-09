@@ -3,6 +3,7 @@ title: Турагенство Авиатур Екатеринбург
 email: avia@aviatour-ekb.ru
 baseurl: http://aviatour.github.io/
 url: http://aviatour.github.io/
+paginate: 5
 
 # Build settings
 markdown: rdiscount
