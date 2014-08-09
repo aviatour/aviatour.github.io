@@ -22,8 +22,13 @@ featureLayer = L.mapbox.featureLayer().loadURL('data/places.geojson').on 'ready'
 
   e.target.eachLayer (layer) ->    
     feature = layer.feature
-    url = "/places/#{feature.properties.key}/"
-    popupContent =  "<a target='_blank' class='popup' href='#{url}'>#{feature.properties.title}</a>"
+    key = feature.properties.key
+    url = "/places/#{key}/"
+    popupContent = "<a target='_blank' class='popup' href='#{url}'>
+                      <img src='/images/flags/#{key}.png'/>
+                      <br />
+                      #{feature.properties.title}
+                    </a>"
 
     layer.bindPopup popupContent,
       closeButton: false
@@ -31,6 +36,7 @@ featureLayer = L.mapbox.featureLayer().loadURL('data/places.geojson').on 'ready'
     link = info.appendChild document.createElement 'a'
     link.setAttribute 'href', url
     link.className = 'item'
+    link.style.backgroundImage = "url('/images/flags/#{key}.png')";
     link.innerHTML = layer.feature.properties.title + '<br /><small>' + layer.feature.properties.title + '</small>'
 
     clusterGroup.addLayer layer
