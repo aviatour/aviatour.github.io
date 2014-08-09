@@ -28,6 +28,7 @@
 { "type": "Feature", "properties": { "title": "Италия", "key": "italy", "marker-color":"#4EACE0","marker-size":"large","marker-symbol":"circle" }, "geometry": { "type": "Point", "coordinates": [ 12.16203, 43.529151 ] } },
 { "type": "Feature", "properties": { "title": "Кипр", "key": "cyprus", "marker-color":"#4EACE0","marker-size":"large","marker-symbol":"circle" }, "geometry": { "type": "Point", "coordinates": [ 33.601744, 35.28039 ] } },
 { "type": "Feature", "properties": { "title": "Китай", "key": "china", "marker-color":"#4EACE0","marker-size":"large","marker-symbol":"circle" }, "geometry": { "type": "Point", "coordinates": [ 103.903377, 36.625354 ] } },
+{ "type": "Feature", "properties": { "title": "Коста-Рика", "key": "costa-rica", "marker-color":"#4EACE0","marker-size":"large","marker-symbol":"circle" }, "geometry": { "type": "Point", "coordinates": [ -84.05, 9.716667 ] } },
 { "type": "Feature", "properties": { "title": "Куба", "key": "cuba", "marker-color":"#4EACE0","marker-size":"large","marker-symbol":"circle" }, "geometry": { "type": "Point", "coordinates": [ -78.960261, 21.61051 ] } },
 { "type": "Feature", "properties": { "title": "Маврикий", "key": "mauritius", "marker-color":"#4EACE0","marker-size":"large","marker-symbol":"circle" }, "geometry": { "type": "Point", "coordinates": [ 57.568023, -20.285814 ] } },
 { "type": "Feature", "properties": { "title": "Малайзия", "key": "malaysia", "marker-color":"#4EACE0","marker-size":"large","marker-symbol":"circle" }, "geometry": { "type": "Point", "coordinates": [ 114.712643, 3.606055 ] } },
