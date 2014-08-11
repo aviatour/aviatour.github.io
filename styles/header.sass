@@ -1,0 +1,63 @@
+---
+---
+
+=border-radius ($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+=linear-gradient ($fromColor, $toColor)
+  background-color: $toColor
+  background-image: -webkit-gradient(linear, left bottom, left top, from($fromColor), to($toColor)) /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(bottom, $fromColor, $toColor) /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(bottom, $fromColor, $toColor) /* FF3.6 */
+  background-image:     -ms-linear-gradient(bottom, $fromColor, $toColor) /* IE10 */
+  background-image:      -o-linear-gradient(bottom, $fromColor, $toColor) /* Opera 11.10+ */
+  background-image:         linear-gradient(bottom, $fromColor, $toColor)
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#{$toColor}', EndColorStr='#{$fromColor}')
+
+.header
+  width: 100%
+  height: 180px
+  margin-bottom: 20px
+  +linear-gradient(#1F80C9, #4EACE0)
+
+  .header-outer
+    height: 180px
+    background: url(/images/giraffe-left-200.png) no-repeat bottom right
+    background-size: 120px
+
+  .logo
+    text-align: center
+    line-height: 180px
+
+  .title
+    cursor: pointer
+
+    h1
+      color: #FD8736
+      line-height: 180px
+
+  .slogan
+    color: #fff
+    text-align: right
+    line-height: 80px
+
+  .contacts
+    color: #fff
+    text-align: right
+
+    .phone
+      white-space: nowrap
+      font-size: 30px
+      line-height: 41px
+
+    .callback
+      cursor: pointer
+      display: inline-block
+      border-bottom: 1px dashed #fff
+
+      &:hover
+        color: #FD8736
+        border-bottom: 1px solid #FD8736
