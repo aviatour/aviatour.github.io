@@ -13,26 +13,22 @@ category: blog
 
 ![Сингапур](/media/singapore/DSC05863.jpg)
 ![Сингапур](/media/singapore/DSC05916.jpg)
-![Сингапур](/media/singapore/DSC05925.jpg)
-![Сингапур](/media/singapore/DSC06025.jpg)
 ![Сингапур](/media/singapore/DSC06027.jpg)
-![Сингапур](/media/singapore/DSC06029.jpg)
 ![Сингапур](/media/singapore/DSC06031_1024.jpg)
 ![Сингапур](/media/singapore/DSC06035.jpg)
 ![Сингапур](/media/singapore/DSC06113_1.jpg)
-![Сингапур](/media/singapore/DSC06120_1.jpg)
 ![Сингапур](/media/singapore/DSC06307_1.jpg)
 ![Сингапур](/media/singapore/DSC06322_1024.jpg)
 ![Сингапур](/media/singapore/DSC06382.jpg)
-![Сингапур](/media/singapore/DSC06382_1.jpg)
 ![Сингапур](/media/singapore/DSC06424.jpg)
+![Сингапур](/media/singapore/DSC06473.jpg)
+![Сингапур](/media/singapore/DSC06479.jpg)
 ![Сингапур](/media/singapore/DSC06519.jpg)
 ![Сингапур](/media/singapore/DSC06558.jpg)
 ![Сингапур](/media/singapore/DSC06602_1024.jpg)
 ![Сингапур](/media/singapore/DSC06645_1024.jpg)
 ![Сингапур](/media/singapore/DSC06719_1024.jpg)
 ![Сингапур](/media/singapore/DSC06766.jpg)
-![Сингапур](/media/singapore/DSC06798.jpg)
 ![Сингапур](/media/singapore/DSC06960.jpg)
 ![Сингапур](/media/singapore/DSC06992_1024.jpg)
 ![Сингапур](/media/singapore/DSC07005_1024.jpg)
@@ -40,7 +36,6 @@ category: blog
 ![Сингапур](/media/singapore/DSC07033.jpg)
 ![Сингапур](/media/singapore/DSC07039.jpg)
 ![Сингапур](/media/singapore/DSC07047.jpg)
-![Сингапур](/media/singapore/DSC07105.jpg)
 {: .fotorama}
 
 ## MUST to stay
@@ -48,6 +43,10 @@ category: blog
  Конечно же все зависит от того сколько дней вы решили уделить на  восхищение этим местом 
 
 Если 3-4 то конечно стоит остановиться в самом городке, в идеале в  окрестностях orchard road, а вот если есть такая возможность  остановиться на 7 - 12 дней то отдых в городе нужно обязательно  совместить с отдыхом на о.Сентоза и насладиться 3-4 дня невероятным  количеством зелени, развлечений и отчасти пляжем, почему от части, все  просто, потому, что Сингапур все таки не совсем пляжный отдых, пляжи на  Синтозе есть, но достаточно своеобразные хоть и с песчаным и пологим заходом в  море, пляж нужно расценивать ни как основной аргумент при выборе этого  месте, а как приятный бонус и вознаграждение за пройденные пешком  километры)) Конечно для преданных и фанатичных путешественников морю  выход все таки есть, острова находящиеся всего в 30 минутах от  Сингапура, но это уже совсем другая история...
+
+![Сингапур](/media/singapore/DSC05925.jpg)
+![Сингапур](/media/singapore/DSC06120_1.jpg)
+{: .fotorama}
 
 ## MUST to see
 
