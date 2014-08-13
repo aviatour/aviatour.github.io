@@ -1,9 +1,7 @@
 ---
 title: Фотогалерея
-layout: image-gallery
+layout: page
 permalink: image-gallery/
 ---
 
-![Тайланд](/images/tours/thai.jpg)
-![Индия](/images/tours/india.jpg)
-![Греция](/images/tours/greece.jpeg)
+{% include image-galleries-list.html %}

@@ -5,14 +5,14 @@ baseurl: http://aviatour.github.io/
 url: http://aviatour.github.io/
 
 # Build settings
-markdown: rdiscount
+markdown: kramdown
 permalink: pretty
 
 # Collections
 collections:
   programs:
     output: true
-    permalink: /aaaaaaaa/:path
+    permalink: /:category/:path
 
 prose:
   rooturl: '_posts'
