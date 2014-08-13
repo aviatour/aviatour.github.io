@@ -1,0 +1,23 @@
+=border-radius ($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius:    $radius
+  -ms-border-radius:     $radius
+  border-radius:         $radius
+
+=linear-gradient ($fromColor, $toColor)
+  background-color: $toColor
+  background-image: -webkit-gradient(linear, left bottom, left top, from($fromColor), to($toColor)) /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(bottom, $fromColor, $toColor) /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image:    -moz-linear-gradient(bottom, $fromColor, $toColor) /* FF3.6 */
+  background-image:     -ms-linear-gradient(bottom, $fromColor, $toColor) /* IE10 */
+  background-image:      -o-linear-gradient(bottom, $fromColor, $toColor) /* Opera 11.10+ */
+  background-image:         linear-gradient(bottom, $fromColor, $toColor)
+  filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#{$toColor}', EndColorStr='#{$fromColor}')
+
+html
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  text-rendering: optimizeLegibility
+
+body
+  font: 100%/1.618 Georgia, "Times New Roman", Times, serif
