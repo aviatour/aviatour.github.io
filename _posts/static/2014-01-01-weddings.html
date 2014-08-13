@@ -1,0 +1,14 @@
+---
+title: Свадьбы за рубежом
+layout: page
+permalink: weddings/
+---
+
+{% for item in site.categories.weddings %}
+  <p>
+    <a href='{{item.url}}' alt="{{item.title}}" title="{{item.title}}">
+      <img src="{{item.image}}" alt="{{item.title}}" title="{{item.title}}"/>
+      {{item.title}}
+    </a>
+  </p>
+{% endfor %}

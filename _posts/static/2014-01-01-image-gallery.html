@@ -1,0 +1,10 @@
+---
+title: Фотогалерея
+layout: page
+permalink: image-gallery/
+---
+
+{% for item in site.categories.image-galleries %}
+  <p><a href='{{site.baseurl}}{{item.url}}' alt="{{item.title}}" title="{{item.title}}"><img src="{{item.image}}" alt="{{item.title}}" title="{{item.title}}"/>
+  {{item.title}}</a></p>
+{% endfor %}
