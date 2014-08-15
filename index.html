@@ -10,17 +10,15 @@ layout: index
   <div class="slider-container">
       <div id="slider">
         {% for item in site.categories.news limit:7 %}
-          <a href='{{site.baseurl}}{{item.url}}' alt="{{item.title}}" title="{{item.title}}">
-            <img src="{{site.baseurl}}{{item.image}}" alt="{{item.title}}" title="{{item.title}}"/>
+          <a href='{{item.url}}' alt="{{item.title}}" title="{{item.title}}">
+            <img src="{{item.image}}" alt="{{item.title}}" title="{{item.title}}"/>
           </a>
         {% endfor %}
       </div>
 
       <div class='slide-buttons'>
         {% for item in site.categories.news limit:7 %}
-          <div class="slide-button" data-value="{{forloop.index0}}">
-            <img src="{{site.baseurl}}{{item.image}}" alt="{{item.title}}" title="{{item.title}}"/>
-          </div>
+          <div class="slide-button" data-value="{{forloop.index0}}" style="background-image:url('{{item.image}}')"></div>
         {% endfor %}
       </div>
   </div>
