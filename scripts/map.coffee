@@ -8,7 +8,7 @@ scroll = new IScroll '#info-wrapper',
 info = document.getElementById 'info'
 L.mapbox.accessToken = 'pk.eyJ1Ijoic3RlcGFua3V6bWluIiwiYSI6Ik1ieW5udm8ifQ.25EOEC2-N92NCWT0Ci9w-Q'
 
-window.map = map = L.mapbox.map 'map',
+window.map = map = L.map 'map',
   minZoom: 2
   scrollWheelZoom: false
   attributionControl: false
