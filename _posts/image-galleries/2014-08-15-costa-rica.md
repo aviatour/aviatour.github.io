@@ -1,9 +1,9 @@
 ---
 title: Коста-Рика
+layout: image-gallery
 published: true
-layout: place
-category: places
-permalink: places/costa-rica/
+category: image-galleries
+image: /media/costa-rica/photo1.jpg
 ---
 
 ![Коста-Рика](/media/costa-rica/photo1.jpg)
@@ -15,4 +15,3 @@ permalink: places/costa-rica/
 ![Коста-Рика](/media/costa-rica/photo7.jpg)
 ![Коста-Рика](/media/costa-rica/photo8.jpg)
 ![Коста-Рика](/media/costa-rica/photo9.jpg)
-{: .fotorama}
