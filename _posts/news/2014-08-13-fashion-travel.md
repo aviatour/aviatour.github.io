@@ -6,7 +6,7 @@ published: true
 tags: 
   - star
   - news
-image: "/media/authors-programs/Bellet152.jpg"
+image: "/media/authors-programs/pierre-behar-balloide-photo.jpg"
 star: true
 ---
 
