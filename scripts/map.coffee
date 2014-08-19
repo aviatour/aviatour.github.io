@@ -26,7 +26,7 @@ featureLayer = L.mapbox.featureLayer().loadURL('data/places.geojson').on 'ready'
     showCoverageOnHover: false
     removeOutsideVisibleBounds: true
 
-  e.target.eachLayer (layer) ->    
+  e.target.eachLayer (layer) ->
     feature = layer.feature
     key = feature.properties.key
     url = "/places/#{key}/"

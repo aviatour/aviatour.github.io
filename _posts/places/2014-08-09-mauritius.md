@@ -1,7 +1,7 @@
 ---
 title: Маврикий
 published: true
-layout: place
+layout: page
 category: places
 permalink: places/mauritius/
 ---

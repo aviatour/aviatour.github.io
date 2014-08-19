@@ -1,31 +1,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <title>{% if page.title %} {{ page.title }} {% else %} {{ site.title }} {% endif %}</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <meta name="description" content="{{ site.description }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
     <link rel="shortcut icon" href="{{ "/images/favicon.ico" | prepend: site.baseurl }}" />
-
-    <!-- Custom CSS -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,300&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.5.1/fotorama.js"></script>
-    <link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.5.1/fotorama.css" rel="stylesheet">
     
-    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.0.0/mapbox.js'></script>
-    <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/leaflet.markercluster.js'></script>
-
-    <link href='https://api.tiles.mapbox.com/mapbox.js/v2.0.0/mapbox.css' rel='stylesheet' />
-    <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css' rel='stylesheet' />
-    <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css' rel='stylesheet' />
-
-    <script src="{{ "/scripts/iscroll.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/scripts/vendor.js" | prepend: site.baseurl }}"></script>
-    <!-- <script src="{{ "/scripts/app.js" | prepend: site.baseurl }}"></script> -->
-
-    <link rel="stylesheet" href="{{ "/styles/vendor.css" | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ "/styles/style.css" | prepend: site.baseurl }}">
+    {% include styles.html %}
 </head>

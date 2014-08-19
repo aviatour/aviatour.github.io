@@ -1,7 +1,7 @@
 ---
 title: Сейшелы
 published: true
-layout: place
+layout: page
 category: places
 permalink: places/seychelles/
 ---

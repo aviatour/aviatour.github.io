@@ -1,7 +1,7 @@
 ---
 title: Индонезия
 published: true
-layout: place
+layout: page
 category: places
 permalink: places/indonesia/
 ---

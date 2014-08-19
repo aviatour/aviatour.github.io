@@ -1,7 +1,7 @@
 ---
 title: Голландия
 published: true
-layout: place
+layout: page
 category: places
 permalink: places/netherlands/
 ---

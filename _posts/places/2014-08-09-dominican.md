@@ -1,7 +1,7 @@
 ---
 title: Доминикана
 published: true
-layout: place
+layout: page
 category: places
 permalink: places/dominican/
 ---

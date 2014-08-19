@@ -1,7 +1,7 @@
 ---
 title: Великобритания
 published: true
-layout: place
+layout: page
 category: places
 permalink: places/united-kingdom/
 ---

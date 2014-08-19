@@ -1,7 +1,7 @@
 ---
 title: Черногория
 published: true
-layout: place
+layout: page
 category: places
 permalink: places/montenegro/
 ---
