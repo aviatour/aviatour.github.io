@@ -65,7 +65,12 @@ prose:
         field:
           element: "text"
           label: "Изображение"
-          value: "http://placehold.it/700x300"
+          value: ""
+      - name: "star"
+        field:
+          element: "checkbox"
+          label: "Показывать на главной"
+          value: false
       - name: "permalink"
         field:
           element: "text"

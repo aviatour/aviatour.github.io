@@ -3,6 +3,9 @@ category: news
 layout: page
 title: "Fashion-travel Лазурный берег"
 published: true
+tags:
+- star
+- news
 image: "/media/authors-programs/Bellet152.jpg"
 ---
 
