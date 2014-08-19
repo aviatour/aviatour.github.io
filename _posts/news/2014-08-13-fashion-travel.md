@@ -3,10 +3,11 @@ category: news
 layout: page
 title: "Fashion-travel Лазурный берег"
 published: true
-tags:
-- star
-- news
+tags: 
+  - star
+  - news
 image: "/media/authors-programs/Bellet152.jpg"
+star: true
 ---
 
 ![UNO FASHION](/media/UNO-FASHION.png){: style="float:left"} Рады представить вашему внимаю нашу совместную авторскую программу с [UNO FASHION](http://www.uno-fashion.ru/). __Юна Ильина__ (авторская марка Uno-Fashion) — дизайнер-вдохновитель, fashion-блоггер, стилист, шоппер и имиджмейкер.
