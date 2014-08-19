@@ -47,6 +47,8 @@ prose:
           label: "Постоянная ссылка"
           value: ""
 
+    # News
+
     _posts/news:
       - name: "layout"
         field:
@@ -61,21 +63,34 @@ prose:
           element: "text"
           label: "Заголовок"
           value: ""
-      - name: "image"
-        field:
-          element: "text"
-          label: "Изображение"
-          value: ""
       - name: "star"
         field:
           element: "checkbox"
           label: "Показывать на главной"
           value: false
+      - name: "image"
+        field:
+          element: "text"
+          label: "Изображение"
+          value: ""
       - name: "permalink"
         field:
           element: "text"
           label: "Постоянная ссылка"
           value: ""
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Добавить теги"
+          placeholder: "Выберите теги"
+          alterable: true
+          options:
+            - name: "На главную"
+              value: "star"
+            - name: "Новости"
+              value: "news"
+
+    # Blog
 
     _posts/blog:
       - name: "layout"
@@ -91,11 +106,18 @@ prose:
           element: "text"
           label: "Заголовок"
           value: ""
+      - name: "star"
+        field:
+          element: "checkbox"
+          label: "Показывать на главной"
+          value: false
       - name: "permalink"
         field:
           element: "text"
           label: "Постоянная ссылка"
           value: ""
+
+    # Fairs
 
     _posts/fairs:
       - name: "layout"
@@ -111,11 +133,18 @@ prose:
           element: "text"
           label: "Заголовок"
           value: ""
+      - name: "star"
+        field:
+          element: "checkbox"
+          label: "Показывать на главной"
+          value: false
       - name: "permalink"
         field:
           element: "text"
           label: "Постоянная ссылка"
           value: ""
+
+    # Weddings
 
     _posts/weddings:
       - name: "layout"
@@ -131,6 +160,11 @@ prose:
           element: "text"
           label: "Заголовок"
           value: ""
+      - name: "star"
+        field:
+          element: "checkbox"
+          label: "Показывать на главной"
+          value: false
       - name: "permalink"
         field:
           element: "text"
