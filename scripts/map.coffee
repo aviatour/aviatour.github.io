@@ -49,3 +49,13 @@ featureLayer = L.mapbox.featureLayer().loadURL('data/places.geojson').on 'ready'
 
   map.addLayer clusterGroup
   scroll.refresh()
+
+  # TODO: fix
+  setTimeout () =>
+    layers = clusterGroup.getLayers()
+    i = Math.floor((Math.random() * layers.length) + 0);
+
+    layer = layers[i]
+    map.setView layer.getLatLng(), 5
+    layer.openPopup()
+  , 5000
