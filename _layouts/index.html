@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {% include header.html %}
+    
+    <div class="page-container container_12">
+      {% include main-menu.html %}
+
+      {% include side-menu.html %}
+
+      <div class="content-wrapper grid_9">
+        {{ content }}
+      </div>
+
+      <div class="container_12">
+        <div class="grid_12">
+          {% include credit-cards.html %}
+          {% include partners.html %}
+        </div>
+      </div>
+
+    </div>
+
+    {% include footer.html %}
+    {% include scripts.html %}
+
+    <div id="sm_slyResult_wrapper" style="left:-5000px; position:fixed;"><div><iframe allowtransparency="true" onload="sm_sly.init()" id="sm_slyResult" src="http://ui.sletat.ru/v31_SearchResult.html?sfx=&amp;rc=5" width="642" height="33" frameborder="0" style="display:block" scrolling="no"></iframe></div></div>
+  </body>
+</html>
