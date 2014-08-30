@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html>
+
   {% include head.html %}
-  <body>
-    {% include header.html %}
-    
-    <div class="page-container container_12">
-      {% include main-menu.html %}
 
-      {% include side-menu.html %}
+    <body>
 
-      <div class="content-wrapper grid_9">
-        {{ content }}
+      {% include header.html %}
+
+      {% include menu.html %}
+
+      <div class='grid-container'>
+
+        <div class='grid-25'>
+          {% include side-menu.html %}
+          {% include sletat-search-mini.html %}
+        </div>
+
+        <div class='grid-75'>
+          {{ content }}
+        </div>
+
       </div>
 
-    </div>
-
-    {% include footer.html %}
-    {% include scripts.html %}
-  </body>
+      {% include footer.html %}
+    </body>
 </html>

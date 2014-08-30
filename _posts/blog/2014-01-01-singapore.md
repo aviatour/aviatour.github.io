@@ -3,8 +3,7 @@ title: Сингапур
 published: true
 layout: page
 category: blog
-tags:
-- star
+image: "/media/singapore/DSC05863.jpg"
 ---
 
   О Сингапуре можно рассказывать, рассказывать и рассказывать, а потом  отдохнуть и начать все сначала... 

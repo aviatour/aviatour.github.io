@@ -1,47 +1,9 @@
-#slider
-  height: 300px
+/* Stretch the links */
+.fotorama__html
+  div, a
+    display: block
+    height: 100%
+    text-indent: -9999px
 
-.slider-container
-  position: relative
-  margin-bottom: 120px
-
-  img
-    width: auto
-    max-width: 100%
-
-  .slide-button
-    margin: 0
-    padding: 0
-    float: left
-    width: 100px
-    height: 100px
-    opacity: 0.6
-    cursor: pointer
-    display: inline-block
-    background-size: cover
-
-    &:hover
-      opacity: 1
-
-  .slider-button
-    position: absolute
-    top: 150px
-    color: #000
-    z-index: 10
-    font-size: 2em
-    line-height: 40px
-    text-align: center
-    text-decoration: none
-    background-color: rgba(255, 255, 255, 0.5)
-
-    &:hover
-      background-color: rgba(255, 255, 255, 0.8)
-
-    &:visited
-      color: #000
-
-    &.slider-prev
-      left: 0
-
-    &.slider-next
-      right: 0
+.slider
+  margin-bottom: em(20)

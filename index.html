@@ -2,28 +2,17 @@
 layout: index
 ---
 
+{% include sletat-slider.html %}
+
 {% assign starred = site.posts | where: "star", true %}
 
-<div class="grid_9">
-  <div>
-    {% include sletat-slider.html %}
-  </div>
-
-  <div class="slider-container">
-      <div id="slider">
-        {% for post in starred %}
-          <a href='{{post.url}}' alt="{{post.title}}" title="{{post.title}}">
-            <img src="{{post.image}}" alt="{{post.title}}" title="{{post.title}}"/>
-          </a>
-        {% endfor %}
-      </div>
-
-      <div class='slide-buttons'>
-        {% for post in starred %}
-          <div class="slide-button" data-value="{{forloop.index0}}" style="background-image:url('{{post.image}}')"></div>
-        {% endfor %}
-      </div>
-  </div>
+<!-- Fotorama -->
+<div class="slider fotorama" data-nav="thumbs" data-fit="cover" data-autoplay="true" data-arrows="false" data-trackpad="true">
+  {% for post in starred %}
+    <div data-img="{{post.image}}" data-caption="{{post.title}}">
+      <a href="{{post.url}}"><img src="{{post.image}}" data-caption="{{post.title}}"></a>
+    </div>
+  {% endfor %}
 </div>
 
 {% include map.html %}

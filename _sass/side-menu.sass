@@ -1,0 +1,28 @@
+.side-menu
+  ul
+    margin-top: 0
+    padding-top: em(10)
+    padding-bottom: em(10)
+    padding-left: 0
+    list-style: none
+    font-size: em(20)
+    background-color: #1F80C9
+    @include border-top-radius(5px)
+    @include border-right-radius(5px)
+    @include border-bottom-radius(5px)
+    @include border-left-radius(5px)
+
+    li
+      margin-bottom: em(15)
+
+      a
+        color: #fff
+        text-decoration: none
+
+      &.active, &:hover
+        a
+          color: #FD8736
+          border-bottom: 1px solid #FD8736
+
+      &:last-child
+        margin-bottom: 0

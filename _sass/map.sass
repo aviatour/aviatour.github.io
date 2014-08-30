@@ -2,7 +2,8 @@
   position: relative
 
   #map
-    width: 700px
+    @include user-select(none)
+    width: 800px
     height: 500px
 
     .dot
@@ -13,7 +14,7 @@
     position: absolute
     width: 260px
     top: 10px
-    right: 10px
+    right: 30px
     background: #fff
     border-radius: 2px
     max-height: 500px - 10px * 2

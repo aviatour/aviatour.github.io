@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html>
+
   {% include head.html %}
-  <body>
-    {% include header.html %}
-    
-    <div class="page-container container_12">
-      {% include main-menu.html %}
 
-      {% include side-menu.html %}
+    <body>
 
-      <div class="content-wrapper grid_9">
-        {{ content }}
-      </div>
+      {% include header.html %}
 
-      <div class="container_12">
-        <div class="grid_12">
+      {% include menu.html %}
+
+      <div class='grid-container'>
+
+        <div class='grid-30 mobile-grid-100'>
+          {% include side-menu.html %}
+          {% include sletat-search-mini.html %}
+        </div>
+
+        <div class='grid-70 mobile-grid-100'>
+          {{ content }}
+        </div>
+
+        <div class='grid-100 mobile-grid-100'>
           {% include credit-cards.html %}
+        </div>
+
+        <div class='grid-100 mobile-grid-100'>
           {% include partners.html %}
         </div>
+
       </div>
 
-    </div>
+      {% include footer.html %}
 
-    {% include footer.html %}
-    {% include scripts.html %}
+      <script src="{{ "/scripts/map.js" | prepend: site.baseurl }}"></script>
 
-    <div id="sm_slyResult_wrapper" style="left:-5000px; position:fixed;"><div><iframe allowtransparency="true" onload="sm_sly.init()" id="sm_slyResult" src="http://ui.sletat.ru/v31_SearchResult.html?sfx=&amp;rc=5" width="642" height="33" frameborder="0" style="display:block" scrolling="no"></iframe></div></div>
-  </body>
+      <div id="sm_slyResult_wrapper" style="left:-5000px; position:fixed;"><div><iframe allowtransparency="true" onload="sm_sly.init()" id="sm_slyResult" src="http://ui.sletat.ru/v31_SearchResult.html?sfx=&amp;rc=5" width="642" height="33" frameborder="0" style="display:block" scrolling="no"></iframe></div></div>
+
+    </body>
 </html>

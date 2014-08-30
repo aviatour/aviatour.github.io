@@ -1,0 +1,21 @@
+<div class='grid-container'>
+  <div class='grid-100'>
+    <nav role='navigation'>
+      <ul>
+
+        {% if page.url != '/' %}
+          <li class='mobile-grid-100'><a href='{{site.baseurl}}/'>На главную</a></li>
+        {% endif %}
+
+        <li class='mobile-grid-100 {% if page.url == '/about/' %} active {% endif %}'>
+          <a href='/about'>О нас</a>
+        </li>
+
+        <li class='mobile-grid-100 {% if page.url == '/contacts/' %} active {% endif %}'>
+          <a href='/contacts'>Контактная информация</a>
+        </li>
+
+      </ul>
+    </nav>
+  </div>
+</div>
