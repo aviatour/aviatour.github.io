@@ -4,13 +4,4 @@ layout: index
 
 {% assign starred = site.posts | where: "star", true %}
 
-<!-- Fotorama -->
-<div class="slider fotorama" data-nav="thumbs" data-fit="cover" data-autoplay="true" data-arrows="false" data-trackpad="true">
-  {% for post in starred %}
-    <div data-img="{{post.image}}" data-caption="{{post.title}}">
-      <a href="{{post.url}}"><img src="{{post.image}}" data-caption="{{post.title}}"></a>
-    </div>
-  {% endfor %}
-</div>
-
 {% include map.html %}
